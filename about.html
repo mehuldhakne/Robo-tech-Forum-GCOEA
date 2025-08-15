@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album</title>
+    <!-- Include necessary CSS files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img
+          src="./logo-removebg-preview-modified.png"
+          width="140px"
+          class="logo"
+          alt=""
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="album.html">Album</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <a href="#" id="close"> <i class="bi bi-x-lg"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="bi bi-justify"></i>
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="container">
+        <h1 id="about-title">About The Robotech Club</h1>
+        <p>
+          Welcome to the Robotech Club, where technology meets innovation! Our
+          club is dedicated to exploring the exciting world of robotics,
+          engineering, and automation.
+        </p>
+
+        <div class="about-details">
+          <div class="image">
+            <img
+              src="./img/Picsart_24-04-13_21-22-47-513.jpg"
+              height="250px"
+              alt="Robotech Club Team"
+            />
+          </div>
+          <div class="content">
+            <h2>Our Mission</h2>
+            <p>
+              Our mission is to provide a platform for students to learn,
+              experiment, and build robots that can solve real-world problems.
+              We believe in fostering creativity and teamwork in the field of
+              robotics.
+            </p>
+
+            <h2>What We Do</h2>
+            <p>
+              We work on various projects, from simple robots to complex
+              autonomous systems. Our club members have access to
+              state-of-the-art tools and resources to bring their ideas to life.
+            </p>
+
+            <button id="learnMoreBtn">Learn More</button>
+            <p id="learnMoreText" style="display: none">
+              We also host workshops, competitions, and collaborate with
+              industry leaders to stay at the forefront of robotics technology.
+            </p>
+          </div>
+        </div>
+        <div class="about-mehul">
+          <h2>Meet the Developer</h2>
+          <p>
+            This website is developed by <strong>Mehul Dhakne</strong>. Connect
+            with me on
+            <a href="https://www.linkedin.com/in/mehuldhakne" target="_blank"
+              >LinkedIn</a
+            >.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>Quick Links</h4>
+        <a href="album.html">Album</a>
+        <a href="blog.html">blog</a>
+      </div>
+      <div class="col">
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="bi bi-facebook"
+              ><link
+                rel="stylesheet"
+                href="https://www.facebook.com/robotechforum?mibextid=ZbWKwL"
+            /></i>
+            <i class="bi bi-instagram"
+              ><link
+                rel="stylesheet"
+                href="https://www.instagram.com/the_robo_tech_forum_gcoea/"
+            /></i>
+            <i class="bi bi-linkedin"
+              ><link
+                rel="stylesheet"
+                href="https://www.linkedin.com/company/the-robo-tech-forum/"
+            /></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>
+        © 2025-The Robo-tech Forum <br />
+        Developed by Mehul Dhakne
+      </p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./newscript.js"></script>
+    <!-- Include necessary JavaScript files -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./newscript.js"></script>
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .about-mehul {
+      background: #ffffff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+    }
+    .about-mehul h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .about-mehul p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .about-mehul a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about-mehul a:hover {
+      text-decoration: underline;
+    }
+
+    .about-section {
+      padding: 40px 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #about-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .about-details {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .about-mehul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .content {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</html>

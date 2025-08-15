@@ -1,0 +1,12 @@
+style{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #0e2431;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: -50px;
+}
+

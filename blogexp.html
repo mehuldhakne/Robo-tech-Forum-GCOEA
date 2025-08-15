@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style2.css" />
+  <script src="newscript.js"></script>
+  <body>
+    <section id="product1" class="section-p1">
+      <h2>The Robotech-Forum Blogs</h2>
+      <p>
+        Stay updated with our latest competitions, projects, and innovations.
+      </p>
+
+      <div class="container">
+        <!-- Robocon Section -->
+        <div class="blog-card">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <h3>Robocon Chronicles</h3>
+            <span class="arrow">&#9654;</span>
+          </div>
+          <div class="blog-content">
+            <h4>Overview of Robocon</h4>
+            <p>[Insert brief description of Robocon and its importance]</p>
+            <h4>Robocon 2022 - Highlights</h4>
+            <p>[Space for summary and achievements]</p>
+            <h4>Robocon 2023 - Challenges & Learnings</h4>
+            <p>[Space for key challenges and insights]</p>
+            <h4>Robocon 2024 - Future Goals</h4>
+            <p>[Space for upcoming plans and strategies]</p>
+          </div>
+        </div>
+
+        <!-- Competitions Section -->
+        <div class="blog-card">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <h3>Competitions & Achievements</h3>
+            <span class="arrow">&#9654;</span>
+          </div>
+          <div class="blog-content">
+            <h4>National-Level Competitions</h4>
+            <p>[Overview of participation in major events]</p>
+            <h4>Techfest IIT Bombay</h4>
+            <p>[Space for experiences and achievements]</p>
+            <h4>Fluxus IIT Indore</h4>
+            <p>[Space for participation details]</p>
+            <h4>Axis VNIT & Rmageddon SGGS</h4>
+            <p>[Performance insights and learning]</p>
+          </div>
+        </div>
+
+        <!-- Aeromodelling Section -->
+        <div class="blog-card">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <h3>Aeromodelling & Innovation</h3>
+            <span class="arrow">&#9654;</span>
+          </div>
+          <div class="blog-content">
+            <h4>Introduction to Aeromodelling</h4>
+            <p>[Brief explanation of aeromodelling domain]</p>
+            <h4>P-40 Aircraft Project</h4>
+            <p>[Details on the development of the P-40 model]</p>
+            <h4>Future Innovations</h4>
+            <p>[Space for upcoming aero projects and developments]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleBlog(element) {
+        let content = element.nextElementSibling;
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+        } else {
+          content.style.display = 'block';
+        }
+      }
+    </script>
+
+    <style>
+      .blog-card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+      }
+
+      .blog-header {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .blog-content {
+        display: none;
+        padding-top: 10px;
+        max-height: 200px; /* Set max height for scroll */
+        overflow-y: auto; /* Enable scrolling */
+      }
+
+      /* Responsive Design */
+      @media screen and (max-width: 768px) {
+        .blog-card {
+          padding: 10px;
+        }
+        .blog-header h3 {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </body>
+</html>

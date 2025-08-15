@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comm Mehul</title>
+     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="./logo-removebg-preview-modified.png" width="140px"  class="logo" alt=""></a>
+    
+    <div>
+        <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a class="active" href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="#" id="close"> <i class="bi bi-x-lg"></i></a>
+
+        </ul>
+    </div>
+    <div id="mobile"> 
+         <i id="bar" class="bi bi-justify"></i>     
+    </div>
+</section>
+
+
+ <section id="product1" class="section-p1">
+        <h2> The Robotech-Forum Blogs</h2>
+        <p>Highlights from Competitions, Projects, and Events</p>
+
+        <div class="container">
+            <!-- Blog Card 1 -->
+            <div class="blog-card">
+                <div class="blog-header" onclick="toggleBlog(this)">
+                    <img src="./img/logo-removebg-preview-modified.png" alt="">
+                    <h3>Robotech-Forum Chronicles</h3>
+                    <span class="arrow">&#9654;</span>
+                </div>
+                <div class="blog-content">
+                     <!-- Section for Overview -->
+                    <div class="info-section">
+                        <h4>Overview of Robocon</h4>
+                         <p>The Robo Tech Forum at Government College of Engineering, Amravati, is a community of passionate innovators dedicated to exploring the world of robotics. Our goal is to promote both personal growth and the advancement of the club by providing hands-on experience in designing, building, and programming robots. We organize workshops, competitions, and collaborative projects that challenge students to push the boundaries of technology while fostering creativity and technical skills. Whether you are a beginner or an experienced robotics enthusiast, our forum offers a platform to learn, experiment, and grow. By engaging in exciting discussions and developing cutting-edge solutions, members gain practical knowledge and industry-relevant experience. The club provides opportunities to showcase talent, work on real-world applications, and contribute to the evolving field of robotics. With a strong emphasis on teamwork, innovation, and problem-solving, The Robo Tech Forum is the perfect place to collaborate, compete, and shape the future of robotics together.</p>
+                     </div>
+                     
+                     <div class="info-section">
+                        <h4>Robocon 2022 - Highlights</h4>
+                        <p>Robocon 2022 took place on July 16 and 17 at Thyagraj Stadium in New Delhi, organized by IIT Delhi in collaboration with Prasar Bharati. This year’s theme was "Lagori," a traditional Indian game, and it marked a return to in-person competition after a hiatus due to the COVID-19 pandemic. A total of 43 teams from over 80 engineering institutes participated, showcasing their robotic creations designed to complete specific tasks within set time limits.</p>
+                        <h6>Team:
+                          <ul>
+                              <li>Nikesh Mankar (Team Captain)</li>
+                              <li>Aniket Yenpreddiwar (Electronics Team Head)</li>
+                              <li>Amit Kendre (Mechanical Team Head)</li>
+                              <li>Ayush Patorakar</li>
+                              <li>Mayur Kandalkar</li>
+                              <li>Muskan Jaiswal</li>
+                              <li>Nirak Thakare</li>
+                              <li>Payal Gour</li>
+                              <li>Piyush Kale</li>
+                              <li>Shrishti Golcha</li>
+                              <li>Soumitra Tambakhe</li>
+                              <li>Vaibhav Shende</li>
+                          </ul>
+                     </div>
+                     
+                     <div class="info-section">
+                         <h4>Robocon 2023 - Challenges & Learnings</h4>
+                         <p>Robocon 2023 competition, held in Cambodia, involved teams from approximately 20 countries participating in the ABU Asia-Pacific Robot Contest. This year’s competition is conducted under the theme ”Casting Flowers Over Angkor Wat”. The theme revolved around robots performing tasks inspired by local culture, such as "Robots sprinkle flowers on Angkor Wat Temple" and "Robots toss rings at a pole". Teams designed and built autonomous robots to complete specific challenges, emphasizing collaboration and innovation. The event not only fostered friendly competition but also provided us with invaluable hands-on experience in robotics, programming, and engineering principles, contributing to our professional development and teamwork skills.
+                             The ABU Robocon 2023 problem statement, involved two robots, a Rabbit Robot (RR) and an Elephant Robot (ER), working in coordination to toss rings onto poles, simulating "Casting Flowers Over Angkor Wat". 
+                            </p>
+                            <h6>Team:
+                            <ul>
+                              <li>Ayush Patorkar (Team Captain)</li>
+                              <li>Piyush Kale (Electronics Team head)</li>
+                              <li>Kalpak Korde (Mechanical Team head)</li>
+                              <li>Arnav Mhala</li>
+                              <li>Jaydeep Borkute</li>
+                              <li>Kapil Raut</li>
+                              <li>Nikhil Faye</li>
+                              <li>Parag Bhoyar</li>
+                              <li>Prathamesh Jiotode</li>
+                              <li>Shreyash Dabhade</li>
+                              <li>Vedant Raut</li>
+                            </ul>
+                        </h6>
+                        
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4>Robocon 2024 - Future Goals</h4>
+                        <p>DD Robocon 2024 was held on July 13-14 at Thyagaraj Stadium in New Delhi, organized by IIT Delhi in collaboration with Prasar Bharati. This year, over 750 students from more than 45 colleges participated, showcasing their innovative robotic designs cantered around the theme "Harvest Day." The competition involved robots performing agricultural tasks, such as planting rice seedlings and collecting seed balls. The event emphasized technical skill development, innovation, and teamwork among engineering students across the nation.</p>
+                        <h6>Team:
+                            <ul>
+                                <li>Vedant Raut (Team Captain)</li>
+                                <li>Shreyash Dabhade (Electronics Team head)</li>
+                                <li>Arnav Mhala (Mechanical Team head)</li>
+                                <li>Ayush Patorkar</li>
+                                <li>Dishendra Jadhav</li>
+                                <li>Harsh Pandey</li>
+                                <li>Harshal Gawande</li>
+                                <li>Jaydeep Borkute</li>
+                                <li>Kapil Raut</li>
+                                <li>Ojas Thombre</li>
+                                <li>Parag Bhoyar</li>
+                                <li>Swarup Bhelkar</li>
+                                <li>Umang Fule</li>                           
+                            </ul>
+                        </h6>
+                        
+                    </div>
+                    
+                    
+                </h6>
+            </div>
+        </div>
+        
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+            <div class="blog-header" onclick="toggleBlog(this)">
+                <img src="./event banner/Technology Is Taking Over English Departments.jpeg" alt="">
+                <h3>Competitions & Achievements</h3>
+                <span class="arrow">&#9654;</span>
+                
+            </div>
+            <div class="blog-content">
+                <div class="info-section">
+                   <h4>ISRO Robotics Challenge – URSC (IRoC-U)</h4>
+                   <p>One of ISRO’s future goal is the exploration of Martian surface and as a part of Martian surface exploration, an Autonomous Aerial Vehicle will carry out scientific activities. ISRO solicits from the youth of India, innovative ideas and designs in the area of navigation for future missions through the conduct of Robotics Challenge.
+
+                    The IRoC-U 2025 challenges the students to develop ‘Autonomous Navigation for an Aerial Vehicle (ANAV)’ without any external navigation aid like GNSS, pseudolite or reflector arrays with a tagline ‘Fly me on MARS’
+                    
+                    The challenge on Martian suOne of ISRO’s future goal is the exploration of Martian surface and as a part of Martian surface exploration, an Autonomous Aerial Vehicle will carry out scientific activities. ISRO solicits from the youth of India, innovative ideas and designs in the area of navigation for future missions through the conduct of Robotics Challenge.
+                    
+                    The IRoC-U 2025 challenges the students to develop ‘Autonomous Navigation for an Aerial Vehicle (ANAV)’ without any external navigation aid like GNSS, pseudolite or reflector arrays with a tagline ‘Fly me on MARS’
+                    
+                    The challenge on Martian surface is non-availability of any external navigation aid like GNSS, pseudolite or reflector arrays. Hence, a dedicated navigation technique required for aerial vehicles for exploration of Martian surface. Hence current challenge focuses only on developing and demonstrating navigation and guidance techniques rather than building aerial vehicles. Students can use/develop any available (off-the-shelf) aerial vehicle complying with existing DGCA rules.
+                    
+                    The student community needs to develop and demonstrate the autonomous capabilities of ANAV:
+                    
+                    for navigation and guidance without the aid of any external navigation.
+                    to identify safe landing spots and perform stable take-off and landing.
+                    ANAV has to perform the following tasks during the various rounds of the challenge.
+                    Stable Vertical take-off, hover and landing.
+                    ANAV shall scan the arena to identify the boundary, and the safe spots for landing.
+                    ANAV shall choose the sequence and stable landing at each safe spot.
+                    After safe landing, the ANAV shall return to the home position.rface is non-availability of any external navigation aid like GNSS, pseudolite or reflector arrays. Hence, a dedicated navigation technique required for aerial vehicles for exploration of Martian surface. Hence current challenge focuses only on developing and demonstrating navigation and guidance techniques rather than building aerial vehicles. Students can use/develop any available (off-the-shelf) aerial vehicle complying with existing DGCA rules.
+                    
+                   <b> The student community needs to develop and demonstrate the autonomous capabilities of ANAV:</b>
+                 <ul>
+                    <li>for navigation and guidance without the aid of any external navigation.</li>
+                    <li>to identify safe landing spots and perform stable take-off and landing.</li>
+                 </ul>
+
+                   <b> ANAV has to perform the following tasks during the various rounds of the challenge.</b>
+                    <ul>
+                        <li>Stable Vertical take-off, hover and landing.</li>
+                        <li>ANAV shall scan the arena to identify the boundary, and the safe spots for landing.</li>
+                        <li>ANAV shall choose the sequence and stable landing at each safe spot.</li>
+                        <li>After safe landing, the ANAV shall return to the home position.</li>
+                    </ul>
+                   
+                    </p>
+                   <h6>Team:
+                     <ul>
+                        <li>Umang Fule (Team Captain)</li>
+                        <li>Darshan Dongre (Vice Captain)</li>
+                        <li>Govind Shinde</li>
+                        <li>Harshal Gawande</li>
+                        <li>Hitesh Nagpure</li>
+                        <li>Om Dukre</li>
+                        <li>Omkar Tikekar</li>
+                        <li>Sahil Junghare</li>
+                        <li>Sarthak Jamkar</li>
+                        <li>Swarup Bhelkar</li>
+                        
+                     </ul>
+                </div>
+
+                <div class="info-section">
+                   <h4>ROBOCON</h4>
+                   <p>Robocon, short for Robotics Contest, is an annual international robotics competition organized by the Asia-Pacific Broadcasting Union (ABU), where university teams design, build, and program autonomous and manually controlled robots to complete specific tasks based on a given theme. The competition promotes innovation, teamwork, and practical engineering skills by challenging participants with real-world robotics problems, often inspired by cultural or technological themes.
+                    Each year, ABU Robocon releases detailed game rules that define the objectives, constraints, and scoring criteria. The competition typically involves two robots per team—one manually controlled and the other autonomous—tasked with navigating arenas, manipulating objects, or completing intricate sequences of actions within a time limit. Participants must optimize mechanical design, control systems, and algorithms to ensure efficiency, accuracy, and reliability. High-speed actuation, precise sensor integration, and robust communication protocols are critical for success.
+                    In India, DD Robocon serves as the national qualifier for ABU Robocon and is organized by Doordarshan (DD) in collaboration with leading technical institutions. Indian teams compete to win the national championship and secure a spot in the international event. DD Robocon follows the same theme as ABU Robocon but serves as a platform for Indian teams to refine their designs before the global contest. It encourages interdisciplinary collaboration among students specializing in mechanical engineering, electronics, computer science, and robotics.
+                    The competition pushes the limits of engineering by requiring teams to implement advanced control strategies such as PID controllers, machine vision for autonomous navigation, and AI-based decision-making. Wireless communication protocols, such as Zigbee, Bluetooth, or Wi-Fi, are often used for robot coordination, while actuators and high-torque motors drive precision movements. Teams must also consider material selection, power management, and modular design for rapid debugging and on-field adjustments.
+                    Robocon has become a prestigious event that bridges academia and industry, providing students with invaluable experience in automation, robotics, and AI-driven systems. Winning teams gain international recognition, and many participants go on to contribute to advancements in robotics research, industrial automation, and autonomous systems development.
+                    </p>
+                </div>
+
+                <div class="info-section">
+                    <h4>Competitions Organized by IIT Bombay</h4>
+                    <p>Every year we take part in the following competitions organized by IIT Bombay:</p>
+
+                    <ul>
+                        <li>
+                            <strong>Robowars</strong>
+                            <ul>
+                                <li>A combat robotics competition where teams design and build powerful robots that fight in an enclosed arena.</li>
+                                <li>Robots use high-torque motors, pneumatics, and hydraulic systems for weapons such as spinning discs, hammers, and flippers.</li>
+                                <li>Structural integrity, weight optimization, and remote-controlled maneuverability are critical.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Micromouse</strong>
+                            <ul>
+                                <li>An autonomous maze-solving robot competition requiring advanced path-planning algorithms such as A* and Dijkstra’s algorithm.</li>
+                                <li>Uses high-speed stepper motors, precise encoders, and IR sensors for navigation.</li>
+                                <li>Efficient battery management and compact PCB design are essential.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Meshmerize</strong>
+                            <ul>
+                                <li>A networking-based competition where teams develop decentralized communication protocols for message passing in a dynamic network environment.</li>
+                                <li>Focuses on ad-hoc networking, routing protocols, and optimization algorithms.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Cozmo Clench</strong>
+                            <ul>
+                                <li>A gripping and manipulation-based robotics challenge requiring teams to design robotic arms and grippers for object handling.</li>
+                                <li>Uses servo-controlled or pneumatic actuators for precision movement.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Full Throttle</strong>
+                            <ul>
+                                <li>A high-speed RC car racing event focusing on aerodynamics, motor efficiency, and control systems.</li>
+                                <li>Requires brushless DC motors, Li-Po battery management, and efficient suspension design.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Hackathons</strong>
+                            <ul>
+                                <li>Multiple hackathons focused on blockchain, cybersecurity, AI, and web development.</li>
+                                <li>Participants solve real-world industry problems using cloud computing, data structures, and APIs.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Drone Challenge</strong>
+                            <ul>
+                                <li>An autonomous drone competition where teams design UAVs (Unmanned Aerial Vehicles) for tasks like object tracking, navigation, and payload delivery.</li>
+                                <li>Utilizes GPS, LiDAR, IMUs, and computer vision algorithms.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </div>
+                <div class="info-section">
+                    <h4>FLUXUS IIT INDORE</h4>
+
+                    <p>There are a variety of technical events at Fluxus that we take part in. Some of these competitions include:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Margadarshak (Line Follower)</strong>: The competition between various line-following robots.
+                        </li>
+                        <li>
+                            <strong>Aero-Artistry</strong>: Different planes compete against each other based on various aspects like payload capacity, total glide time, climbing time, etc.
+                        </li>
+                        <li>
+                            <strong>Robowars</strong>: A flagship event where custom-built robots engage in combat, testing durability, design, and control mechanisms. Participants design and construct robots capable of battling opponents in an arena, aiming to disable or immobilize them.
+                        </li>
+                        <li>
+                            <strong>Meshmerize</strong>: A networking-based competition where teams develop decentralized communication protocols for message passing in a dynamic network environment.
+                        </li>
+                    </ul>
+                    </div>
+
+                <div class="info-section">
+                    <h4>AXIS VNIT</h4>
+
+                    <p>AXIS VNIT provides a variety of competitions in which we compete against other colleges. These include:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Robowars</strong>: A flagship event where custom-built robots engage in combat, testing durability, design, and control mechanisms. Participants design and construct robots capable of battling opponents in an arena, aiming to disable or immobilize them.
+                        </li>
+                        <li>
+                            <strong>Meshmerize</strong>: A networking-based competition where teams develop decentralized communication protocols for message passing in a dynamic network environment.
+                        </li>
+                        <li>
+                            <strong>Cozmo Clench</strong>: A gripping and manipulation-based robotics challenge requiring teams to design robotic arms and grippers for object handling.
+                        </li>
+                        <li>
+                            <strong>Full Throttle</strong>: A high-speed RC car racing event focusing on aerodynamics, motor efficiency, and control systems.
+                        </li>
+                    </ul>
+                    </div>
+                <div class="info-section">
+                    <h4>RMAGEDDON SGGS</h4>
+
+                    <p>Competitions at RMAGEDDON we compete in:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Aero Artistry</strong>: This competition challenges participants to design and demonstrate aerial robotics or drones, focusing on flight stability, control, and innovative design aspects.
+                        </li>
+                    </ul>
+                </div>  
+                
+                
+            </div>
+        </div>
+        
+        <!-- Blog Card 3 -->
+        <div class="blog-card">
+            <div class="blog-header" onclick="toggleBlog(this)">
+                <img src="./event banner/Technology Is Taking Over English Departments.jpeg" alt="">
+                <h3>Aeromodelling & Innovation</h3>
+                <span class="arrow">&#9654;</span>
+                
+            </div>
+            <div class="blog-content">
+                <div class="info-section">
+                    <h4>Aeromodelling Competitions</h4>
+
+                    <p>Different categories of aeromodelling competitions challenge us in various aspects of aircraft design and piloting. Below are some of the competitions we engage in:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Glider Competitions (Hand-Launched or RC Gliders)</strong>
+                            <ul>
+                                <li>Participants design and launch non-powered aircraft (gliders).</li>
+                                <li>The goal is to achieve maximum flytime and smooth landing.</li>
+                                <li>Judged based on aerodynamics, time in the air, and landing precision.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>RC Aircraft Flying</strong>
+                            <ul>
+                                <li>Participants build and control remote-controlled (RC) planes.</li>
+                                <li>Competitors perform stunts, follow designated flight paths, or achieve maximum endurance.</li>
+                                <li>Some versions include obstacle courses where pilots must navigate their aircraft through a predefined track.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Payload Dropping Challenges</strong>
+                            <ul>
+                                <li>Participants design aircraft capable of carrying and accurately dropping payloads at a target location.</li>
+                                <li>Used to simulate emergency relief operations where goods must be delivered with precision.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>Drone Racing and Obstacle Challenges</strong>
+                            <ul>
+                                <li>Participants fly high-speed drones through a defined course featuring hoops, turns, and altitude changes.</li>
+                                <li>The fastest drone with the fewest crashes wins.</li>
+                                <li>Often includes FPV (First-Person View) drone racing, where pilots use VR-style goggles for real-time navigation.</li>
+                            </ul>
+                        </li>
+                    
+                        <li>
+                            <strong>VTOL (Vertical Take-Off and Landing) Aircraft Competitions</strong>
+                            <ul>
+                                <li>Participants develop aircraft capable of both vertical take-off and horizontal flight.</li>
+                                <li>VTOL designs are judged based on stability, transition between vertical and horizontal flight, and endurance.</li>
+                                <li>The last aircraft flying with an intact ribbon wins.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="info-section"><h4>AERO</h4>
+
+                    <p>In RTF, we have a completely separate domain for Aero and Aviation Technology. Members who are more enthusiastic about flying machines like RC Planes, drones, etc., are given a set of components and resources that suit them best to achieve their goals and create something they are truly passionate about. The Aero branch in RTF excels in every field, whether it be competitions, expos, or sessions organized by RTF. During introductory sessions for new RTF recruits, they are shown every plane and drone built in RTF to capture their interest in this field.</p>
+                    
+                    <h4>RC Planes</h4>
+                    
+                    <p>RC Planes are primarily used for small-scale testing before the actual manufacturing of real planes. A wide variety of RC Planes are built in RTF, including:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Transall C-160</strong>
+                            <p>An RC model of the Transall C-160 was built with motors providing sufficient thrust along with ESCs capable of handling the amperage draw. The wingspan and fuselage dimensions were scaled proportionally to maintain stability during flight.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>Delta Wing</strong>
+                            <p>Delta-wing RC planes are known for their triangular wing shape, offering excellent stability at high speeds and maneuverability. This plane typically used lightweight materials for construction and required a high-speed BLDC motor with propellers optimized for aerodynamic efficiency. The wing area was carefully calculated to ensure lift and stability during flight.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>Tail-Sitter VTOL</strong>
+                            <p>A Tail-Sitter Vertical Takeoff and Landing (VTOL) aircraft was designed to take off and land vertically while maintaining a horizontal flight position. This innovative design allowed for compact storage and operation in limited spaces. The tail-sitter featured unique propulsion systems that enabled a smooth transition between vertical and horizontal flight.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>P-40</strong>
+                            <p>The P-40 Warhawk was a classic WWII fighter plane known for its ruggedness and versatility. In RC form, it retained the iconic shark-mouth design and featured a wingspan of approximately 1.2m (47 in). The model was typically powered by an electric motor, providing speeds up to 80 km/h (50 mph). With its semi-symmetrical airfoil, the P-40 offered stable flight characteristics suitable for both novice and experienced pilots.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>FT-Old Foggy</strong>
+                            <p>The FT-Old Foggy was a popular RC trainer aircraft designed for beginners. It featured a high-wing configuration that enhanced stability during flight. With a wingspan of about 1.2m (48 in), this model was lightweight and easy to handle. Typically powered by an electric motor, the FT-Old Foggy was known for its slow flight capabilities, making it ideal for learning basic flying skills without the risk of rapid descent or stalling.</p>
+                    </div>
+                    
+                 <div class="info-section">
+                    <h4>Drones</h4>
+
+                    <p>Drones are an integral part of not only RTF but also the modern world. They have a wide range of applications across various industries. At RTF, we continuously strive to build better drones, improve upon existing models, and provide hands-on experience to new recruits. Currently, there are three types of drones present in RTF:</p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Tricopter</strong>
+                            <p>The Tricopter is a three-rotor drone featuring a yaw mechanism controlled by a servo on the rear motor. It uses an FSI-6 flight controller with ESCs regulating the brushless motors. The frame is made from lightweight materials, providing excellent stability and maneuverability.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>F-450 (Quadcopter)</strong>
+                            <p>The F-450 Quadcopter is built with four brushless motors and 30A ESCs. An FSI-6 flight controller manages stabilization, making it a reliable platform for aerial photography or general flying. A LiPo battery powers the system, offering decent flight endurance.</p>
+                        </li>
+                    
+                        <li>
+                            <strong>Hexacopter</strong>
+                            <p>The Hexacopter is a six-rotor drone featuring a yaw mechanism controlled by a servo on the rear motor. It uses an FSI-6 flight controller with ESCs regulating the brushless motors. The frame is made from lightweight materials, providing excellent stability and maneuverability.</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="info-section">
+                        
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li>2017 MathWorks Modelling Award</li>
+                         <li>MATLAB Modelling Special Award at Robocon 2017</li>
+                            <li>2018 MathWorks Modelling Award</li>
+                            <li>DD Robocon 2nd Stage Joint AIR 1 (2022, 2024)</li>
+                            <li>AIR 3 in Aero Artistry 2024 at IIT Indore</li>
+                            <li>AIR 2 in Aero Artistry 2025 at IIT Indore</li>
+                        </ul>
+                        <h4>Sponsors</h4>
+                        <ul>
+                            <li>MathWorks</li>
+                            <li>SolidWorks</li>
+                        </ul>
+                    </div>
+</div>
+            </div>
+        </div>
+        </div>
+
+         
+
+
+
+
+
+
+<!-- footer -->
+
+<footer class="section-p1">
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>Quick Links</h4>
+      <a href="album.html">Album</a>
+      <a href="blog.html">blog</a>
+    </div>
+    <div class="col">
+      <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="bi bi-facebook"><link rel="stylesheet" href="https://www.facebook.com/robotechforum?mibextid=ZbWKwL"></i>
+            <i class="bi bi-instagram"><link rel="stylesheet" href="https://www.instagram.com/the_robo_tech_forum_gcoea/"></i>
+            <i class="bi bi-linkedin"><link rel="stylesheet" href="https://www.linkedin.com/company/the-robo-tech-forum/"></i>
+           
+          </div>
+        </div>
+    </div>
+  </footer>
+<div class="copyright"> 
+    <p>© 2025-The Robo-tech Forum  <br>
+    Developed by Mehul Dhakne</p>
+</div>
+
+
+
+<!-- personal styles for this page only -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .blog-card {
+        
+        background: #fff;
+        border: 1px solid #cce7d0;
+        border-radius: 25px;
+        box-shadow: 20px 20px 30px rgba(0,0,0,0.01);
+        overflow: hidden;
+        margin-bottom: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    .blog-card:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+ ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+
+    .blog-header {
+     display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    }
+
+    .info-section {
+    border: 1px solid #088178;  /* Border color as specified */
+    border-radius: 25px;         /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;  /* Optional: a subtle background for separation */
+}
+
+
+    .blog-header img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        margin-right: 20px;
+        transition: all 0.3s ease, transform 0.5s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+
+    .blog-header img.expand {
+        width: 150px;
+        height: 150px;
+        transform: translate(-10px, 10px);
+    }
+
+    .blog-header h3 {
+        margin: 0;
+        font-size: 1.5em;
+        line-height: 1.2;
+        color: #088178;
+    }
+
+    .arrow {
+        margin-left: auto;
+        font-size: 1.5em;
+        transform: rotate(0deg);
+        transition: transform 0.3s ease;
+    }
+
+    .arrow.rotate {
+        transform: rotate(90deg);
+    }
+
+    .blog-content {
+        max-height: 0;
+        overflow: auto;
+        padding: 0 20px;
+        transition: max-height 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+
+    .blog-content.expanded {
+        max-height: 500px;
+        opacity: 1;
+    }
+
+    .blog-content p {
+        font-size: 1em;
+        line-height: 1.6;
+        margin: 20px 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .blog-header img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .blog-header img.expand {
+            width: 120px;
+            height: 120px;
+        }
+
+        .blog-header h3 {
+            font-size: 1.2em;
+        }
+    }
+</style>
+
+
+<!-- common scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script src="./newscript.js"></script>
+   
+
+<!-- personal scripts for this page only -->
+   <script>
+    function toggleBlog(element) {
+        const content = element.nextElementSibling;
+        const arrow = element.querySelector('.arrow');
+        const image = element.querySelector('img');
+
+        if (content.classList.contains('expanded')) {
+            content.classList.remove('expanded');
+            arrow.classList.remove('rotate');
+            image.classList.remove('expand');
+        } else {
+            content.classList.add('expanded');
+            arrow.classList.add('rotate');
+            image.classList.add('expand');
+        }
+    }
+</script>
+</body>
+</html>
+</html
